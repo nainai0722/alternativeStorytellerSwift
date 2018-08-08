@@ -1,32 +1,29 @@
 //
-//  TopViewController.swift
+//  SecondViewController.swift
 //  alternativeStorytellerSwift
 //
-//  Created by apple on 2018/07/25.
+//  Created by apple on 2018/08/04.
 //  Copyright © 2018年 com.nainai0722. All rights reserved.
 //
 
 import UIKit
 
-class TopViewController: UIViewController {
-
+class SecondViewController: UIViewController {
+    var StoryStr2 : String?
+    @IBOutlet weak var secondPagetxt: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        secondPagetxt.text = self.StoryStr2!
         // Do any additional setup after loading the view.
     }
-
+    @IBOutlet weak var secondStr: UITextView!
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
-    @IBAction func touchNextViewButton(_ sender: UIButton) {
-//        EditStoryViewController
-        let nextvc = SelectStoryTableViewController()
-        self.present(nextvc, animated: true, completion: nil)
-    }
     /*
     // MARK: - Navigation
 

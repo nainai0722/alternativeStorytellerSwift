@@ -8,10 +8,11 @@
 
 import UIKit
 
-class EditMemberNameViewController: UIViewController {
-    @IBOutlet var member1tf: [UITextField]!
-    
+class EditMemberNameViewController: UIViewController ,UITextFieldDelegate{
+    @IBOutlet weak var member1tf: UITextField!
     @IBOutlet weak var member2tf: UITextField!
+    var storyNum: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,12 +26,13 @@ class EditMemberNameViewController: UIViewController {
     
     @IBAction func touchNextViewButton(_ sender: UIButton) {
 //        tfが二つとも入力済みであること
-        if  member1tf == nil || member2tf == nil{
+        if  self.member1tf == nil || self.member2tf == nil{
             return
         }
-        
         let nextvc = EditStoryViewController()
-        nextvc.view.backgroundColor = UIColor.blue
+        nextvc.mem1 = self.member1tf!.text!
+        nextvc.mem2 = self.member2tf!.text!
+        nextvc.storyNum = self.storyNum
         self.present(nextvc, animated: true, completion: nil)
     }
     

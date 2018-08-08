@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184415672111FBF3002AC849 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184415662111FBF3002AC849 /* Const.swift */; };
+		184415682111FBF3002AC849 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184415662111FBF3002AC849 /* Const.swift */; };
+		184415692111FBF3002AC849 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184415662111FBF3002AC849 /* Const.swift */; };
+		1844156B2111FD6F002AC849 /* MemberClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844156A2111FD6F002AC849 /* MemberClass.swift */; };
+		1844156C2111FD6F002AC849 /* MemberClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844156A2111FD6F002AC849 /* MemberClass.swift */; };
+		1844156D2111FD6F002AC849 /* MemberClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844156A2111FD6F002AC849 /* MemberClass.swift */; };
+		1844157021133105002AC849 /* SelectStoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844156E21133105002AC849 /* SelectStoryTableViewController.swift */; };
+		1844157121133105002AC849 /* SelectStoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844156E21133105002AC849 /* SelectStoryTableViewController.swift */; };
+		1844157221133105002AC849 /* SelectStoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844156E21133105002AC849 /* SelectStoryTableViewController.swift */; };
+		1844157321133105002AC849 /* SelectStoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1844156F21133105002AC849 /* SelectStoryTableViewController.xib */; };
+		1844157421133105002AC849 /* SelectStoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1844156F21133105002AC849 /* SelectStoryTableViewController.xib */; };
+		1844157521133105002AC849 /* SelectStoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1844156F21133105002AC849 /* SelectStoryTableViewController.xib */; };
+		1844157721134141002AC849 /* DetailStoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844157621134141002AC849 /* DetailStoryClass.swift */; };
+		1844157821134141002AC849 /* DetailStoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844157621134141002AC849 /* DetailStoryClass.swift */; };
+		1844157921134141002AC849 /* DetailStoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844157621134141002AC849 /* DetailStoryClass.swift */; };
+		1844157B21135022002AC849 /* detailStory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844157A21135022002AC849 /* detailStory.plist */; };
+		1844157C21135022002AC849 /* detailStory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844157A21135022002AC849 /* detailStory.plist */; };
+		1844157D21135022002AC849 /* detailStory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844157A21135022002AC849 /* detailStory.plist */; };
+		1844157F2113560F002AC849 /* storySetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844157E2113560F002AC849 /* storySetting.plist */; };
+		184415802113560F002AC849 /* storySetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844157E2113560F002AC849 /* storySetting.plist */; };
+		184415812113560F002AC849 /* storySetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844157E2113560F002AC849 /* storySetting.plist */; };
 		18D4BDAA2108A7BF00306CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4BDA92108A7BF00306CA8 /* AppDelegate.swift */; };
 		18D4BDAC2108A7BF00306CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4BDAB2108A7BF00306CA8 /* ViewController.swift */; };
 		18D4BDB12108A7C100306CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D4BDB02108A7C100306CA8 /* Assets.xcassets */; };
@@ -29,6 +50,30 @@
 		18D4BDEC2108AA5C00306CA8 /* EditStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4BDE82108AA5C00306CA8 /* EditStoryViewController.xib */; };
 		18D4BDED2108AA5C00306CA8 /* EditStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4BDE82108AA5C00306CA8 /* EditStoryViewController.xib */; };
 		18D4BDEE2108AA5C00306CA8 /* EditStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4BDE82108AA5C00306CA8 /* EditStoryViewController.xib */; };
+		18DA85522114AA13001DA837 /* StoryViewerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85502114AA13001DA837 /* StoryViewerPageViewController.swift */; };
+		18DA85532114AA13001DA837 /* StoryViewerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85502114AA13001DA837 /* StoryViewerPageViewController.swift */; };
+		18DA85542114AA13001DA837 /* StoryViewerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85502114AA13001DA837 /* StoryViewerPageViewController.swift */; };
+		18DA85552114AA13001DA837 /* StoryViewerPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85512114AA13001DA837 /* StoryViewerPageViewController.xib */; };
+		18DA85562114AA13001DA837 /* StoryViewerPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85512114AA13001DA837 /* StoryViewerPageViewController.xib */; };
+		18DA85572114AA13001DA837 /* StoryViewerPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85512114AA13001DA837 /* StoryViewerPageViewController.xib */; };
+		18DA855A2114AA67001DA837 /* PageFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85582114AA67001DA837 /* PageFirstViewController.swift */; };
+		18DA855B2114AA67001DA837 /* PageFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85582114AA67001DA837 /* PageFirstViewController.swift */; };
+		18DA855C2114AA67001DA837 /* PageFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85582114AA67001DA837 /* PageFirstViewController.swift */; };
+		18DA855D2114AA67001DA837 /* PageFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85592114AA67001DA837 /* PageFirstViewController.xib */; };
+		18DA855E2114AA67001DA837 /* PageFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85592114AA67001DA837 /* PageFirstViewController.xib */; };
+		18DA855F2114AA67001DA837 /* PageFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85592114AA67001DA837 /* PageFirstViewController.xib */; };
+		18DA85622114AEE6001DA837 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85602114AEE6001DA837 /* SecondViewController.swift */; };
+		18DA85632114AEE6001DA837 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85602114AEE6001DA837 /* SecondViewController.swift */; };
+		18DA85642114AEE6001DA837 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85602114AEE6001DA837 /* SecondViewController.swift */; };
+		18DA85652114AEE6001DA837 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85612114AEE6001DA837 /* SecondViewController.xib */; };
+		18DA85662114AEE6001DA837 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85612114AEE6001DA837 /* SecondViewController.xib */; };
+		18DA85672114AEE6001DA837 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85612114AEE6001DA837 /* SecondViewController.xib */; };
+		18DA856A2114AF05001DA837 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85682114AF05001DA837 /* ThirdViewController.swift */; };
+		18DA856B2114AF05001DA837 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85682114AF05001DA837 /* ThirdViewController.swift */; };
+		18DA856C2114AF05001DA837 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA85682114AF05001DA837 /* ThirdViewController.swift */; };
+		18DA856D2114AF05001DA837 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85692114AF05001DA837 /* ThirdViewController.xib */; };
+		18DA856E2114AF05001DA837 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85692114AF05001DA837 /* ThirdViewController.xib */; };
+		18DA856F2114AF05001DA837 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA85692114AF05001DA837 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +94,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184415662111FBF3002AC849 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		1844156A2111FD6F002AC849 /* MemberClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberClass.swift; sourceTree = "<group>"; };
+		1844156E21133105002AC849 /* SelectStoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStoryTableViewController.swift; sourceTree = "<group>"; };
+		1844156F21133105002AC849 /* SelectStoryTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectStoryTableViewController.xib; sourceTree = "<group>"; };
+		1844157621134141002AC849 /* DetailStoryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStoryClass.swift; sourceTree = "<group>"; };
+		1844157A21135022002AC849 /* detailStory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = detailStory.plist; sourceTree = "<group>"; };
+		1844157E2113560F002AC849 /* storySetting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = storySetting.plist; sourceTree = "<group>"; };
 		18D4BDA62108A7BF00306CA8 /* alternativeStorytellerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alternativeStorytellerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4BDA92108A7BF00306CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D4BDAB2108A7BF00306CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +119,14 @@
 		18D4BDE02108AA1600306CA8 /* EditMemberNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditMemberNameViewController.xib; sourceTree = "<group>"; };
 		18D4BDE72108AA5C00306CA8 /* EditStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStoryViewController.swift; sourceTree = "<group>"; };
 		18D4BDE82108AA5C00306CA8 /* EditStoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditStoryViewController.xib; sourceTree = "<group>"; };
+		18DA85502114AA13001DA837 /* StoryViewerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewerPageViewController.swift; sourceTree = "<group>"; };
+		18DA85512114AA13001DA837 /* StoryViewerPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryViewerPageViewController.xib; sourceTree = "<group>"; };
+		18DA85582114AA67001DA837 /* PageFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFirstViewController.swift; sourceTree = "<group>"; };
+		18DA85592114AA67001DA837 /* PageFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageFirstViewController.xib; sourceTree = "<group>"; };
+		18DA85602114AEE6001DA837 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18DA85612114AEE6001DA837 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		18DA85682114AF05001DA837 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		18DA85692114AF05001DA837 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +177,27 @@
 		18D4BDA82108A7BF00306CA8 /* alternativeStorytellerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				184415662111FBF3002AC849 /* Const.swift */,
+				1844156A2111FD6F002AC849 /* MemberClass.swift */,
+				1844157621134141002AC849 /* DetailStoryClass.swift */,
+				1844157A21135022002AC849 /* detailStory.plist */,
+				1844157E2113560F002AC849 /* storySetting.plist */,
 				18D4BDD72108A80200306CA8 /* TopViewController.swift */,
 				18D4BDD82108A80200306CA8 /* TopViewController.xib */,
+				1844156E21133105002AC849 /* SelectStoryTableViewController.swift */,
+				1844156F21133105002AC849 /* SelectStoryTableViewController.xib */,
 				18D4BDDF2108AA1600306CA8 /* EditMemberNameViewController.swift */,
 				18D4BDE02108AA1600306CA8 /* EditMemberNameViewController.xib */,
 				18D4BDE72108AA5C00306CA8 /* EditStoryViewController.swift */,
 				18D4BDE82108AA5C00306CA8 /* EditStoryViewController.xib */,
+				18DA85502114AA13001DA837 /* StoryViewerPageViewController.swift */,
+				18DA85512114AA13001DA837 /* StoryViewerPageViewController.xib */,
+				18DA85582114AA67001DA837 /* PageFirstViewController.swift */,
+				18DA85592114AA67001DA837 /* PageFirstViewController.xib */,
+				18DA85602114AEE6001DA837 /* SecondViewController.swift */,
+				18DA85612114AEE6001DA837 /* SecondViewController.xib */,
+				18DA85682114AF05001DA837 /* ThirdViewController.swift */,
+				18DA85692114AF05001DA837 /* ThirdViewController.xib */,
 				18D4BDA92108A7BF00306CA8 /* AppDelegate.swift */,
 				18D4BDAB2108A7BF00306CA8 /* ViewController.swift */,
 				18D4BDB02108A7C100306CA8 /* Assets.xcassets */,
@@ -254,9 +329,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DA855D2114AA67001DA837 /* PageFirstViewController.xib in Resources */,
 				18D4BDB42108A7C100306CA8 /* LaunchScreen.storyboard in Resources */,
+				18DA856D2114AF05001DA837 /* ThirdViewController.xib in Resources */,
 				18D4BDB12108A7C100306CA8 /* Assets.xcassets in Resources */,
+				18DA85552114AA13001DA837 /* StoryViewerPageViewController.xib in Resources */,
 				18D4BDE42108AA1700306CA8 /* EditMemberNameViewController.xib in Resources */,
+				1844157F2113560F002AC849 /* storySetting.plist in Resources */,
+				1844157321133105002AC849 /* SelectStoryTableViewController.xib in Resources */,
+				1844157B21135022002AC849 /* detailStory.plist in Resources */,
+				18DA85652114AEE6001DA837 /* SecondViewController.xib in Resources */,
 				18D4BDEC2108AA5C00306CA8 /* EditStoryViewController.xib in Resources */,
 				18D4BDDC2108A80200306CA8 /* TopViewController.xib in Resources */,
 			);
@@ -266,9 +348,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DA855E2114AA67001DA837 /* PageFirstViewController.xib in Resources */,
 				18D4BDE52108AA1700306CA8 /* EditMemberNameViewController.xib in Resources */,
+				18DA85562114AA13001DA837 /* StoryViewerPageViewController.xib in Resources */,
+				184415802113560F002AC849 /* storySetting.plist in Resources */,
 				18D4BDED2108AA5C00306CA8 /* EditStoryViewController.xib in Resources */,
+				18DA85662114AEE6001DA837 /* SecondViewController.xib in Resources */,
+				1844157C21135022002AC849 /* detailStory.plist in Resources */,
 				18D4BDDD2108A80200306CA8 /* TopViewController.xib in Resources */,
+				18DA856E2114AF05001DA837 /* ThirdViewController.xib in Resources */,
+				1844157421133105002AC849 /* SelectStoryTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +365,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DA855F2114AA67001DA837 /* PageFirstViewController.xib in Resources */,
 				18D4BDE62108AA1700306CA8 /* EditMemberNameViewController.xib in Resources */,
+				18DA85572114AA13001DA837 /* StoryViewerPageViewController.xib in Resources */,
+				184415812113560F002AC849 /* storySetting.plist in Resources */,
 				18D4BDEE2108AA5C00306CA8 /* EditStoryViewController.xib in Resources */,
+				18DA85672114AEE6001DA837 /* SecondViewController.xib in Resources */,
+				1844157D21135022002AC849 /* detailStory.plist in Resources */,
 				18D4BDDE2108A80200306CA8 /* TopViewController.xib in Resources */,
+				18DA856F2114AF05001DA837 /* ThirdViewController.xib in Resources */,
+				1844157521133105002AC849 /* SelectStoryTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +385,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DA85622114AEE6001DA837 /* SecondViewController.swift in Sources */,
 				18D4BDE92108AA5C00306CA8 /* EditStoryViewController.swift in Sources */,
 				18D4BDD92108A80200306CA8 /* TopViewController.swift in Sources */,
 				18D4BDAC2108A7BF00306CA8 /* ViewController.swift in Sources */,
+				1844156B2111FD6F002AC849 /* MemberClass.swift in Sources */,
+				18DA855A2114AA67001DA837 /* PageFirstViewController.swift in Sources */,
 				18D4BDAA2108A7BF00306CA8 /* AppDelegate.swift in Sources */,
 				18D4BDE12108AA1700306CA8 /* EditMemberNameViewController.swift in Sources */,
+				184415672111FBF3002AC849 /* Const.swift in Sources */,
+				1844157721134141002AC849 /* DetailStoryClass.swift in Sources */,
+				1844157021133105002AC849 /* SelectStoryTableViewController.swift in Sources */,
+				18DA85522114AA13001DA837 /* StoryViewerPageViewController.swift in Sources */,
+				18DA856A2114AF05001DA837 /* ThirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +406,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D4BDBF2108A7C200306CA8 /* alternativeStorytellerSwiftTests.swift in Sources */,
+				1844157821134141002AC849 /* DetailStoryClass.swift in Sources */,
+				18DA855B2114AA67001DA837 /* PageFirstViewController.swift in Sources */,
+				1844157121133105002AC849 /* SelectStoryTableViewController.swift in Sources */,
+				184415682111FBF3002AC849 /* Const.swift in Sources */,
 				18D4BDEA2108AA5C00306CA8 /* EditStoryViewController.swift in Sources */,
+				18DA85532114AA13001DA837 /* StoryViewerPageViewController.swift in Sources */,
 				18D4BDE22108AA1700306CA8 /* EditMemberNameViewController.swift in Sources */,
+				18DA856B2114AF05001DA837 /* ThirdViewController.swift in Sources */,
+				18DA85632114AEE6001DA837 /* SecondViewController.swift in Sources */,
+				1844156C2111FD6F002AC849 /* MemberClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,8 +424,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D4BDCA2108A7C200306CA8 /* alternativeStorytellerSwiftUITests.swift in Sources */,
+				1844157921134141002AC849 /* DetailStoryClass.swift in Sources */,
+				18DA855C2114AA67001DA837 /* PageFirstViewController.swift in Sources */,
+				1844157221133105002AC849 /* SelectStoryTableViewController.swift in Sources */,
+				184415692111FBF3002AC849 /* Const.swift in Sources */,
 				18D4BDEB2108AA5C00306CA8 /* EditStoryViewController.swift in Sources */,
+				18DA85542114AA13001DA837 /* StoryViewerPageViewController.swift in Sources */,
 				18D4BDE32108AA1700306CA8 /* EditMemberNameViewController.swift in Sources */,
+				18DA856C2114AF05001DA837 /* ThirdViewController.swift in Sources */,
+				18DA85642114AEE6001DA837 /* SecondViewController.swift in Sources */,
+				1844156D2111FD6F002AC849 /* MemberClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,15 +582,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
 				INFOPLIST_FILE = alternativeStorytellerSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Nainai0722.alternativeStorytellerSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -480,15 +604,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
 				INFOPLIST_FILE = alternativeStorytellerSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Nainai0722.alternativeStorytellerSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

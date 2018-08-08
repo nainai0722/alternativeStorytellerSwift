@@ -1,18 +1,21 @@
 //
-//  TopViewController.swift
+//  ThirdViewController.swift
 //  alternativeStorytellerSwift
 //
-//  Created by apple on 2018/07/25.
+//  Created by apple on 2018/08/04.
 //  Copyright © 2018年 com.nainai0722. All rights reserved.
 //
 
 import UIKit
 
-class TopViewController: UIViewController {
-
+class ThirdViewController: UIViewController {
+    @IBOutlet weak var storyStr3: UITextView!
+    var StoryStr3 : String?
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.storyStr3.text = self.StoryStr3!
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,11 +25,6 @@ class TopViewController: UIViewController {
     }
     
 
-    @IBAction func touchNextViewButton(_ sender: UIButton) {
-//        EditStoryViewController
-        let nextvc = SelectStoryTableViewController()
-        self.present(nextvc, animated: true, completion: nil)
-    }
     /*
     // MARK: - Navigation
 
